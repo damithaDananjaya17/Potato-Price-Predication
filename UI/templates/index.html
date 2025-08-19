@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potato Price Predictor</title>
+</head>
+<body>
+    <h2>Enter Details for Prediction</h2>
+    <form action="/predict" method="POST">
+        Date: <input type="date" name="date"><br>
+        Vegetable: <input type="text" name="vegetable"><br>
+        Variety: <input type="text" name="variety"><br>
+        Market: <input type="text" name="market"><br>
+        Temperature: <input type="number" step="any" name="temperature"><br>
+        Rainfall: <input type="number" step="any" name="rainfall"><br>
+        Province: <input type="text" name="province"><br>
+        Selling Market: <input type="text" name="selling_market"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
