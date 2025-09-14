@@ -57,7 +57,7 @@ st.markdown("""
     }
     
     .success-card {
-        background: #4d4d53;
+        background: #E0E0E0;
         padding: 15px;
         border-radius: 10px;
         border-left: 4px solid #28a745;
@@ -806,7 +806,7 @@ with tab4:
 # Enhanced footer
 st.markdown("---")
 st.markdown("""
-<div style="text-align: center; padding: 20px; background: #4d4d53; border-radius: 10px; color: white;">
+<div style="text-align: center; padding: 20px; background: #F0F0F0; border-radius: 10px; color: #000000;">
     <h4>🌱 Empowering Sri Lankan Farmers with AI Technology</h4>
     <p>Developed by <strong>Damitha Dhananjaya</strong> | Machine Learning Powered | Version 1.0</p>
     <p>🔄 Last Updated: July 05, 2025</p>
